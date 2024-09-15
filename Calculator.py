@@ -26,8 +26,8 @@ label1.grid(row=0, column=4, columnspan=4, padx=10, pady=10)
 label2 = tk.Label(root, text="Value and Result:", font=("arial", "12", "bold"))
 label2.grid(row=1, column=4, columnspan=4, padx=0, pady=5)
 
-textfield = tk.Entry(root, width=55)
-textfield.grid(row=2, column=4, columnspan=4, padx=20, pady=20)
+textfield = tk.Entry(root, width=26,font=("Arial",18))
+textfield.grid(row=2, column=4, columnspan=4, padx=20, pady=20,ipady=20)
 
 button_frame = tk.Frame(root)
 button_frame.grid(row=3, column=5, columnspan=14,pady=15)

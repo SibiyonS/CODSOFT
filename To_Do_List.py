@@ -1,4 +1,3 @@
-""" TO_DO LIST """
 import tkinter as tk
 root=tk.Tk()
 global tasks
